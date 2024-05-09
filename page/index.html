@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>nerito geek</title>
+</head>
+
+<body>
+    <!-- encabezado -->
+    <header>
+        <div class="bannerGeek">
+            <img class="logoNerito" src="../img/neritoEncriptador - copia.png" alt="logo_nerito_geek.png">
+            <h1>geek</h1>
+        </div>
+    </header>
+    <!--seccion de productos-->
+    <main>
+        <section>
+            <h2>Productos Geek</h2>
+            <ul class="contenedorProductos" alt="productos geek" data-lista>
+            </ul>
+
+        </section>
+
+        <!--formulario-->
+        <section>
+            <div class="formulariotitulo">
+                <h2>Agregar Productos</h2>
+            </div>
+            <form class="principal__formulario" data-formulario>
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="titulo">Nombre</label>
+                    <input name="titulo" class="campo__escrita" required
+                        placeholder="En este campo, pon el nombre del vídeo" id='titulo' data-nombre />
+                </div>
+
+
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="Precio">Precio</label>
+                    <input name="Precio" class="campo__escrita" required
+                        placeholder="En este campo, pon el nombre del vídeo" id='Precio' data-Precio />
+                </div>
+
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="imagem">Imagen de perfil</label>
+                    <input name="imagem" class="campo__escrita" required placeholder="Inserta la URL de la imagen"
+                        id='imagem' data-imagen />
+                </div>
+
+
+                <div class="botones">
+                    <input value="Agregar" class="formulario__boton" id="enviar" data-boton-enviar type="submit" />
+                    <input value="limpiar" class="formulario__boton" id="limpiar" data-boton-limpiar type="submit" />
+                </div>
+            </form>
+        </section>
+
+    </main>
+    <script src="../js/mostrarProductos.js" type="module"></script>
+   <script src="../js/crearProducto.js" type="module"></script>
+   <script src="../js/eliminarProducto.js" type="module"></script>
+</body>
+<footer>
+    <img class="logoNeritoF" src="../img/neritoEncriptador - copia.png" alt="logo_nerito_geek">
+    <h2 class="geekF">Geek</h2>
+    <p>copyright 2024</p>
+</footer>
+
+</html>
