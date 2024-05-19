@@ -1,4 +1,5 @@
 {
+  "__single": true,
   "productos": [
     {
       "id": "2",
@@ -11,12 +12,6 @@
       "nombre": "Stromtooper",
       "precio": "$60.0",
       "imagen": "https://fv5-2.failiem.lv/thumb_show.php?i=4hkhvy8j4t&view&v=1"
-    },
-    {
-      "id": "592a",
-      "nombre": "game boy classic",
-      "precio": "10.0",
-      "imagen": "https://fv5-2.failiem.lv/thumb_show.php?i=rtjhxqg9fu&view&v=1"
     },
     {
       "id": "981c",
@@ -32,6 +27,36 @@
     },
     {
       "id": "bb5e",
+      "nombre": "game boy classic",
+      "precio": "10.0",
+      "imagen": "https://fv5-2.failiem.lv/thumb_show.php?i=rtjhxqg9fu&view&v=1"
+    },
+    {
+      "id": "cbfc",
+      "nombre": "game boy classic",
+      "precio": "10.0",
+      "imagen": "https://fv5-2.failiem.lv/thumb_show.php?i=rtjhxqg9fu&view&v=1"
+    },
+    {
+      "id": "3162",
+      "nombre": "game boy classic",
+      "precio": "10.0",
+      "imagen": "https://fv5-2.failiem.lv/thumb_show.php?i=rtjhxqg9fu&view&v=1"
+    },
+    {
+      "id": "c8c3",
+      "nombre": "game boy classic",
+      "precio": "10.0",
+      "imagen": "https://fv5-2.failiem.lv/thumb_show.php?i=rtjhxqg9fu&view&v=1"
+    },
+    {
+      "id": "a85a",
+      "nombre": "game boy classic",
+      "precio": "10.0",
+      "imagen": "https://fv5-2.failiem.lv/thumb_show.php?i=rtjhxqg9fu&view&v=1"
+    },
+    {
+      "id": "98e9",
       "nombre": "game boy classic",
       "precio": "10.0",
       "imagen": "https://fv5-2.failiem.lv/thumb_show.php?i=rtjhxqg9fu&view&v=1"

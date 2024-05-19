@@ -1,7 +1,7 @@
 {
-  "name": "s",
-  "version": "1.0.1",
-  "description": "",
+  "name": "camilo-geek",
+  "version": "1.0.3",
+  "description": "productos feek",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
